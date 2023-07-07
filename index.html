@@ -40,24 +40,39 @@
                         <div class="container">
                                 <small>You don't have an account?</small>
                                 <button type="button" class="mt-4 mb-4 btn btn-secondary w-100" data-bs-toggle="modal" 
-                                    data-bs-target="registor-modal">Register</button>
+                                    data-bs-target="#myModal">Register</button>
                         </div>
-
-
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                        <div class="modal-header">
+                                            <div class="modal-title">
+                                                Register here</div>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="input-group mb-3">
+                                                <input type="text" class="form-control form-control-lg bg-light fs-6" placeholder="Email address">
+                                            </div>
+                                            <div class="input-group mb-1">
+                                                <input type="password" class="form-control form-control-lg bg-light fs-6" placeholder="Password">
+                                            </div>
+                                            <div class="input-group mb-1">
+                                                <input type="password" class="form-control form-control-lg bg-light fs-6" placeholder="Enter password again">
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Register</button>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                                    
                     </div>
                 </div>
-
             </div>
-
-
         </div>
-
-
-
-
-
-
-
     </body>
 
 
